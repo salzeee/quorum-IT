@@ -1,0 +1,103 @@
+/* .logo {
+    width: 50px;
+} */
+
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 0;
+  background-color: #000; /* Set the desired color for the bar */
+  transition: width 0.3s ease-out; /* Add a smooth transition effect */
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+
+
+
+.logo img {
+    width: 75px;
+}
+.my-navbar{
+    font-family: "Raleway", sans-serif;
+}
+
+.ntc {
+    border-radius: 0% !important;
+    border: none !important;
+}
+.ntc:focus {
+   box-shadow: none !important;
+}
+
+.navi  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.menu {
+   padding: 10px 0px !important;
+   color: #000000 !important;
+   transition: .2s !important;
+}
+
+.menu:hover {
+    font-weight: 700;
+}
+
+
+/* media */
+
+@media (max-width: 575.98px) {
+  
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+ 
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+ 
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+ 
+}
+
+@media (min-width: 1400px)  {
+
+}
+
+/* Remove default scrollbar styles */
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

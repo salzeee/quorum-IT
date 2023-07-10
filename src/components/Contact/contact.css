@@ -1,0 +1,77 @@
+.footer {
+  font-family: "Raleway", sans-serif;
+}
+.contact-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.c_logo img {
+  width: 150px;
+}
+
+.contact-icon {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.c_p {
+  color: black !important;
+  font-size: 14px;
+
+  /* margin: 0; */
+}
+
+.c_a {
+  transition: 0.2s;
+}
+
+.c_a:hover {
+  font-weight: 700;
+}
+.c_h {
+  color: black !important;
+  font-weight: 700;
+}
+
+.c_h a {
+  color: black !important;
+}
+
+.c_e a {
+  text-decoration: none;
+  color: black;
+}
+
+.fb {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  transition: 0.2s;
+}
+
+.fb:hover {
+  scale: 1.1;
+  cursor: pointer;
+}
+
+.ln {
+  height: 30px;
+  width: 30px;
+  transition: 0.2s;
+}
+
+.ln:hover {
+  scale: 1.1;
+  cursor: pointer;
+}
+
+hr {
+  border-color: black !important;
+}
+
+@media (max-width: 575.98px) {
+  .c_logo img {
+    padding-bottom: 40px;
+  }
+}
